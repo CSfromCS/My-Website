@@ -1,5 +1,5 @@
 title: Hi I'm CS!
-descripyll URL Shortenertion: Testing website stuff here :>
+descrition: Testing website stuff here :>
 logo: /assets/img/logo.png
 show_downloads: true
 google_analytics:
@@ -9,5 +9,3 @@ permalink: /:slug
 
 plugins:
   - jekyll-redirect-from
-
-#repository: hlaueriksson/jekyll-url-shortener
