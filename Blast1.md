@@ -1,3 +1,8 @@
+---
+layout: none
+redirect_from: /blast
+---
+
 <style>
     html,
     body {
