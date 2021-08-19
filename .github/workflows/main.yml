@@ -1,0 +1,22 @@
+name: urlzap
+on: [push]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Generate & Deploy
+    steps:
+    # Checkout your repo locally
+    - uses: actions/checkout@v2
+
+    # Generate files using this action
+    - name: Generate
+      uses: brunoluiz/urlzap-github-action@v1
+
+    # Deplloy in Github Pages (you can use others)
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@3.7.1
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: .
