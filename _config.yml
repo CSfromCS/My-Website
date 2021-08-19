@@ -10,6 +10,8 @@ permalink: /:slug
 plugins:
   - jekyll-redirect-from
 
+- name: urlzap
+  uses: brunoluiz/urlzap-github-action@v1
 
 urls:
   yt: https://www.youtube.com/channel/UCCYzx5UEwMxFSQAQwi8f_Mg
