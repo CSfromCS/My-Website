@@ -9,3 +9,7 @@ permalink: /:slug
 
 plugins:
   - jekyll-redirect-from
+
+
+urls:
+  yt: https://www.youtube.com/channel/UCCYzx5UEwMxFSQAQwi8f_Mg
