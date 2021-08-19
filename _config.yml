@@ -9,3 +9,6 @@ permalink: /:slug
 
 plugins:
   - jekyll-redirect-from
+
+- name: urlzap
+  uses: brunoluiz/urlzap-github-action@v1
