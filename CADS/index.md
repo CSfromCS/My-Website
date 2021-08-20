@@ -1,6 +1,5 @@
 ---
 layout: default
-title: CADS
 ---
 {% assign thispageurl = page.url %}
 
