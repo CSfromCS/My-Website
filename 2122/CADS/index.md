@@ -2,7 +2,7 @@
 ---
 {% assign thispageurl = page.url %}
 
-# Hello {{ page.url | remove: "/" }}!
+# Hello {{ page.dir | remove: "/" }}!
 
 {% assign redirects = site.pages | where_exp: "item", "item.redirect_to != nil" %}
 {% for page in redirects %}
