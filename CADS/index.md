@@ -4,8 +4,6 @@
 
 # Hello {{ page.url | remove: "/" }}!
 
-## site.pages with if contains
-
 {% assign redirects = site.pages | where_exp: "item", "item.redirect_to != nil" %}
 {% for page in redirects %}
 {% if page.url contains thispageurl %}
